@@ -1,0 +1,42 @@
+.gameboard-cell {
+  width: 12%;
+  margin: 0.25em;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+
+  /* color: red;
+  background-color: lightgrey; */
+  padding: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 3px gray;
+}
+
+.operative {
+  color: black;
+  background-color: lightgray;
+}
+
+.spymaster-red {
+  color: red;
+  background-color: lightgray;
+}
+
+.selected-red {
+  color: lightpink;
+  background-color: darkred;
+}
+
+/* spymaster-red
+spymaster-blue
+spymaster-gray
+spymaster-black
+
+selected-red
+selected-blue
+selected-gray
+selected-black */
