@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin");
+
+.gameboard-cell {
+  width: 12%;
+  margin: 0.25em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  padding: 2.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Cabin";
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.operative {
+  color: #988066;
+  background-color: #e8e5d4;
+  /* box-shadow: 3px 3px 3px #e2e2e2; */
+  box-shadow: 3px 3px 3px #dfdbc3;
+}
+
+.spymaster-red {
+  color: #e84b42;
+  background-color: #e8e5d4;
+  box-shadow: 3px 3px 3px #dfdbc3;
+}
+
+.spymaster-blue {
+  color: #4c807b;
+  background-color: #e8e5d4;
+  box-shadow: 3px 3px 3px #dfdbc3;
+}
+
+.spymaster-assassin {
+  color: #565656;
+  background-color: #e8e5d4;
+  box-shadow: 3px 3px 3px #dfdbc3;
+}
+
+.selected-red {
+  color: #f8cdca;
+  background-color: #e84b42;
+  box-shadow: 3px 3px 3px #c8c8c8;
+}
+
+.selected-blue {
+  color: #bfd9d6;
+  background-color: #4c807b;
+  box-shadow: 3px 3px 3px #c8c8c8;
+}
+
+.selected-assassin {
+  color: #bbbbbb;
+  background-color: #565656;
+  box-shadow: 3px 3px 3px #c8c8c8;
+}

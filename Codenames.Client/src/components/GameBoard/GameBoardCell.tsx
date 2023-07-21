@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "./GameBoardCell.module.css";
+import "./GameBoardCell.css";
 
 type GameBoardCellProps = {
   cell: {
@@ -12,13 +12,14 @@ type GameBoardCellProps = {
 };
 
 function GameBoardCell({ cell }: GameBoardCellProps) {
-  const isSpymaster = true;
-  const isSelected = false;
+  const isSpymaster = false;
+  const isSelected = cell.cellState == "selected" ? true : false;
 
-  //   const playerClassName = isSpymaster ? `styles[spymaster-${cell.cellTeam}]` : `styles.operative`;
-  //   const selectedClassName = `styles[selected-${cell.cellTeam}]`;
+  const selectedClass = `selected-${cell.cellTeam}`;
+  const playerClass = isSpymaster ? `spymaster-${cell.cellTeam}` : `operative`;
+  const classes = `gameboard-cell ${isSelected ? selectedClass : playerClass}`;
 
-  return <button className={styles["gameboard-cell"]}>{cell.cellWord}</button>;
+  return <button className={classes}>{cell.cellWord}</button>;
 }
 
 export default GameBoardCell;
