@@ -1,7 +1,7 @@
 import React from "react";
 
 import GameBoardCell from "./GameBoardCell";
-import styles from "./GameBoardRow.module.css";
+import "./GameBoardRow.css";
 
 type GameBoardRowProps = {
   row: { cellId: number; cellState: string; cellTeam: string; cellWord: string }[];
@@ -9,7 +9,7 @@ type GameBoardRowProps = {
 
 function GameBoardRow({ row }: GameBoardRowProps) {
   return (
-    <section className={styles["gameboard-row"]}>
+    <section className="gameboard-row">
       {row.map((cell) => (
         <GameBoardCell cell={cell} />
       ))}
