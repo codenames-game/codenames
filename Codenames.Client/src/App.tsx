@@ -1,13 +1,9 @@
-import React, { Fragment } from "react";
-import GameBoard from "./components/GameBoard/GameBoard";
+import React from "react";
+import GameRoom from "./components/GameRoom/GameRoom";
 import "./App.css";
 
 function App() {
-  return (
-    <Fragment>
-      <GameBoard />
-    </Fragment>
-  );
+  return <GameRoom />;
 }
 
 export default App;
