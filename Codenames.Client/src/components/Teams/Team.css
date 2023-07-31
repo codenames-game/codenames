@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family=Cabin");
+@import url("https://fonts.googleapis.com/css?family=Cabin+Sketch");
+
+.team {
+  width: 10%;
+  height: 10rem;
+  margin-top: 3rem;
+  padding: 1.5rem;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px #c8c8c8;
+}
+
+.team-header {
+  font-size: x-large;
+  font-family: "Cabin Sketch";
+  text-transform: uppercase;
+}
+
+.team-score {
+  font-size: x-large;
+}
+
+.turn-off {
+  color: #565656;
+  background-color: #e1e1e1;
+}
+
+.turn-red {
+  color: #e84b42;
+  background-color: #f8cdca;
+}
+
+.turn-blue {
+  color: #4c807b;
+  background-color: #bfd9d6;
+}
+
+.btn-red {
+  color: white;
+  background-color: #e84b42;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  font-family: "Cabin";
+}
+
+.btn-blue {
+  color: white;
+  background-color: #4c807b;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  font-family: "Cabin";
+}

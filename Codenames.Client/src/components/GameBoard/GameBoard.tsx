@@ -24,7 +24,7 @@ function GameBoard() {
     { cellId: 11, cellState: "selected", cellTeam: "blue", cellWord: "lion" },
     { cellId: 12, cellState: "unselected", cellTeam: "red", cellWord: "golf" },
     { cellId: 13, cellState: "unselected", cellTeam: "blue", cellWord: "foot" },
-    { cellId: 14, cellState: "selected", cellTeam: "assassin", cellWord: "memory" },
+    { cellId: 14, cellState: "unselected", cellTeam: "assassin", cellWord: "memory" },
     { cellId: 15, cellState: "unselected", cellTeam: "blue", cellWord: "texas" },
   ];
 
